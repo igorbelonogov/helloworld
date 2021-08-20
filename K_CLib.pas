@@ -70,6 +70,8 @@ procedure K_CompressJSStrings( DSL, SSL  : TStrings; StringCommentArr,
                   SingleCommentArr, BracketsCommentArr : array of string );
 //##*/
 
+// change
+
 type TK_TestFormFunc = function ( AForm : TForm ) : Boolean of object;
 function  K_SearchOpenedForm( AClass : TClass = nil; ASelfName : string = '';
                               AOwner : TForm = nil; ASkipForm : TForm = nil;
